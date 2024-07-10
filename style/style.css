@@ -277,3 +277,138 @@
     height: 217.01px;
 }
 
+/* Third page Degine Start here */
+
+.thrid-page-header{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.thrid-page-header>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.thrid-page-header>p{
+    color: rgb(13, 19, 33);
+    width: 852px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    text-align: center;
+
+}
+
+
+.thrid-page-header>iframe{
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+
+/* fotter style */
+
+
+.fotter{
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    background: url("../assets/handshake.jpg"), no-repeat;
+    background-size: cover;
+    padding: 64px 48px 64px 48px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotter h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+
+.fotter p{
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.fotter>form{
+    width: 700px;
+    height: 58px;
+}
+
+.fotter>form>input[type="text"]{
+    width: 500px;
+    height: 25px;
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+}
+.fotter>form>input[type="submit"]{
+    width: 120px;
+    height: 65.21px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    margin-bottom: 79px;
+}
+.fotter-bottom{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 32px 150px 32px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.fotter-bottom h2 img{
+    width: 1140px;
+    height: 40px;
+    align-items: center;
+}
+
+ .fotter-bottom h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.fotter-bottom img {
+    margin-left: 24px;
+}
+
