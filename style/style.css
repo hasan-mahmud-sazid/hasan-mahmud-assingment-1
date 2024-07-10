@@ -30,7 +30,7 @@
 .navbar button{
     width: 228px;
     height: 58px;
-    color: rgb(13, 19, 33);
+    color: rgb(5, 5, 5);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
@@ -38,6 +38,7 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
 }
+
 .banner{
     width: 1440px;
     height: 652px;
@@ -83,21 +84,27 @@
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     margin-top: 24px;
     margin-bottom: 32px;
 }
-.banner-contain button{
+
+.button {
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
     color: rgb(255, 255, 255);
     width: 211px;
     height: 66px;
-    font-family: Azeret Mono;
+    font-family: 'Azeret Mono', monospace; /* Ensure the font family is correctly applied */
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400; /* Correct the font-weight value */
     margin-top: 32px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    text-decoration: none; /* Remove underline */
 }
+
 
 /* <!-- Second Page Start Here --> */
 
@@ -286,7 +293,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-bottom: 60px;
     margin-top: 60px;
 }
@@ -307,6 +313,7 @@
     line-height: 26px;
     margin-bottom: 48px;
     text-align: center;
+    opacity: 0.8;
 
 }
 
@@ -324,7 +331,6 @@
 .fourth-page{
     width: 1140px;
     height: 463px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-bottom: 111px;
 }
@@ -343,7 +349,7 @@
 .fourth-page-header p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 40px;
@@ -361,7 +367,8 @@
 
 .fourth-page-fstdiv{
     width: 95%;
-    padding: 40px;
+    height: 275px;
+    padding: 33px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
@@ -371,15 +378,22 @@
 
 }
 .fourth-page-fstdiv>h1{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 .fourth-page-fstdiv>p{
-    margin-bottom: 24px;
     color: rgb(94, 101, 119);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
+    margin-bottom: 37px;
+}
+
+.fourth-page-secdiv{
+    width: 95%;
+    padding: 33px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
 }
 
 .fourth-page-secdiv>img{
@@ -389,50 +403,38 @@
 .fourth-page-secdiv>h1{
     margin-bottom: 8px;
 }
-.fourth-page-sec>p{
+.fourth-page-secdiv>p{
     margin-bottom: 24px;
     color: rgb(94, 101, 119);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
-}
-
-.fourth-page-thrd_div>img{
-    margin-bottom: 24px;
-
-}
-.fourth-page-thrd_div>h1{
-    margin-bottom: 8px;
-}
-.fourth-page-thrd_div>p{
-    margin-bottom: 24px;
-    color: rgb(94, 101, 119);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-}
-
-.fourth-page-secdiv{
-    width: 95%;
-    padding: 40px;
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    margin-bottom: 20px;
 }
 
 .fourth-page-thrd_div{
-    width: 95%;
-    padding: 40px;
+    width: 97%;
+    height: 281px;
+    padding: 28px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 223, 0, 0.05);
 }
 
-
-
+.fourth-page-thrd_div>h1{
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+.fourth-page-thrd_div>p{
+    color: rgb(94, 101, 119);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 18px;
+}
 
 /* fotter style */
-
 
 .fotter{
     width: 1140px;
@@ -464,20 +466,24 @@
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
+    /* font-weight: 400px; */
     line-height: 26px;
     text-align: center;
+    opacity: 0.7;
     margin-bottom: 24px;
 }
 .fotter>form{
     width: 700px;
-    height: 58px;
+    height: 100px;
+    margin-bottom: 24px;
+  
 }
 
 .fotter>form>input[type="text"]{
     width: 500px;
     height: 25px;
     border-radius: 8px;
+    border: none;
     padding: 19px 20px 19px 20px;
 }
 .fotter>form>input[type="submit"]{
@@ -489,8 +495,9 @@
     font-weight: 600;
     line-height: 23px;
     border-radius: 8px;
+    border: none;
     padding: 19px 20px 19px 20px;
-    margin-bottom: 79px;
+    
 }
 .fotter-bottom{
     width: 1440px;
@@ -503,6 +510,7 @@
     justify-content: center;
     justify-content: space-between;
     background: rgba(13, 19, 33, 0.03);
+    margin-bottom: 300px;
 }
 
 .fotter-bottom h2 img{
