@@ -319,6 +319,117 @@
     border-radius: 16px;
 }
 
+/* Fourth Page Start Here */
+
+.fourth-page{
+    width: 1140px;
+    height: 463px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+
+.fourth-page-header{
+   text-align: center;
+}
+.fourth-page-header h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.fourth-page-header p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.fourth-page-contain{
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px
+}
+
+.fourth-page-fstdiv{
+    width: 95%;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.fourth-page-fstdiv>img{
+    margin-bottom: 24px;
+
+}
+.fourth-page-fstdiv>h1{
+    margin-bottom: 8px;
+}
+.fourth-page-fstdiv>p{
+    margin-bottom: 24px;
+    color: rgb(94, 101, 119);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.fourth-page-secdiv>img{
+    margin-bottom: 24px;
+
+}
+.fourth-page-secdiv>h1{
+    margin-bottom: 8px;
+}
+.fourth-page-sec>p{
+    margin-bottom: 24px;
+    color: rgb(94, 101, 119);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.fourth-page-thrd_div>img{
+    margin-bottom: 24px;
+
+}
+.fourth-page-thrd_div>h1{
+    margin-bottom: 8px;
+}
+.fourth-page-thrd_div>p{
+    margin-bottom: 24px;
+    color: rgb(94, 101, 119);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.fourth-page-secdiv{
+    width: 95%;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.fourth-page-thrd_div{
+    width: 95%;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+
+
 
 /* fotter style */
 
